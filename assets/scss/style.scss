@@ -1,0 +1,53 @@
+@charset "utf-8";
+$spacer : 5px;
+.mt-5 {
+  margin-top: ($spacer * 1) !important;
+}
+.mt-15 {
+  margin-top: ($spacer * 3) !important;
+}
+.mt-20 {
+  margin-top: ($spacer * 4) !important;
+}
+.mt-40 {
+  margin-top: ($spacer * 8) !important;
+}
+.no-weight{
+  font-weight: normal;
+}
+.dz-progress{
+  display: none !important;
+}
+.text-green {
+  color: #80CBC4;
+}
+.text-cyan {
+  color: #4DD0E1;
+}
+.text-blue {
+  color: #42A5F5;
+}
+.tags,.teams{
+  word-wrap: break-word;
+  a{
+    text-decoration: none;
+  }
+}
+.list__tile{
+  height: 74px;
+}
+.link-no-decoration{
+  text-decoration: none;
+}
+nav.toolbar{
+  z-index: 100;
+}
+.input-group--slider{
+  label{
+    width: 150px !important;
+  }
+}
+.text-center{
+  text-align: center;
+  margin: auto;
+}
