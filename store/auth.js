@@ -32,7 +32,6 @@ export const actions = {
       .then((user) => {
         // ログイン成功
         commit('setUser', user)
-        dispatch('setUser', user)
       })
       .catch((error) => {
         // エラー処理

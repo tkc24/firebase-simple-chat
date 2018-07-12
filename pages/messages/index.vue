@@ -16,11 +16,11 @@
           v-flex(lg9 md9 sm9 xs9)
             v-card-text.grey.lighten-5(style="height: 100%;" :key="messageData['.key']") {{messageData['text']}}
         template(v-else)
-          v-flex(lg9 md9 sm9 xs9)
-            v-card-text.grey.lighten-5(style="height: 100%;" :key="messageData['.key']") {{messageData['text']}}
           v-flex.text-center(lg3 md3 sm3 xs3)
             v-icon(large) fa-user
             p 違う人
+          v-flex(lg9 md9 sm9 xs9)
+            v-card-text.grey.lighten-5(style="height: 100%;" :key="messageData['.key']") {{messageData['text']}}
 </template>
 
 <script>
