@@ -20,7 +20,10 @@ $ npm run generate
 ```
 
 ## .env
+``` bash
 $ mv sample.env .env
+```
+
 ``` .env
 FB_API_KEY=
 FB_AUTH_DOMAIN=
