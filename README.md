@@ -19,4 +19,13 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## .env
+$ mv sample.env .env
+``` .env
+FB_API_KEY=
+FB_AUTH_DOMAIN=
+FB_DATABASE_URL=
+FB_PROJECTID=
+FB_STORAGE_BUCKET=
+FB_MESSAGING_SENDER_ID=
+```
